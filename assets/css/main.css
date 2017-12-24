@@ -3836,6 +3836,7 @@
      .main_call {
      	width: 60%;
      	text-align: center;
+     	margin-bottom: 50px;
      }
 
 	.from-right {
@@ -3847,15 +3848,7 @@
 
 	
 
-	@media screen and (max-width: 400px) {
 
-		img.goods {
-		max-width: 250px;
-		height: 180px;
-		
-		
-	}
-}
 
 
 .popup {
@@ -4059,7 +4052,7 @@ border-radius: 20px;
 	}
 
 	.price {
-		font-size: 1rem;
+		font-size: 1.2rem;
 		text-align: center;
 	}
 
@@ -4080,8 +4073,48 @@ border-radius: 20px;
 
 	.section_title {
 		padding: 4em 0 2em 0;
+
 	}
 
 	.advantage {
 		text-align: center;
+
 	}
+
+	div#seven_advantages {
+		background-color: rgba(255, 255, 255, 0.075);
+	}
+
+	.description {
+		
+		font-size: 1rem;
+		line-height: 1.5rem;
+		text-align: justify;
+		padding-left: 30px;
+		padding-right: 20px;
+	}
+
+		@media screen and (max-width: 400px) {
+
+		img.goods {
+		max-width: 250px;
+		height: 180px;
+		
+		
+	}
+	.main_call {
+     	width: 100%;
+     	text-align: center;
+     	margin-bottom: 30px;
+     }
+}
+
+.answers {
+	
+		font-size: 1rem;
+		line-height: 1.5rem;
+		text-align: justify;
+		padding-left: 10px;
+		padding-right: 10px;
+	
+}
