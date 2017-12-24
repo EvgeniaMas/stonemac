@@ -209,11 +209,11 @@
 		sequentialFactor : 150,
 		// animation speed
 		// this is the speed that takes "1" cuboid to rotate
-		speed : 600,
+		speed : 500,
 		// transition easing
 		easing : 'ease',
 		// if true the slicebox will start the animation automatically
-		autoplay : false,
+		autoplay : true,
 		// time (ms) between each rotation, if autoplay is true
 		interval: 3000,
 		// the fallback will just fade out / fade in the items
