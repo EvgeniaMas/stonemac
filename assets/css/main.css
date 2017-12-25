@@ -3881,12 +3881,6 @@
 
 }
 
-// #order {
-//    display: block;
-//    margin: 0 auto;
-//    width: 80%;
-//    margin-top: 30px;
-// }
 
 #blindLayer {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
@@ -3950,11 +3944,6 @@ border-radius: 20px;
   background-position: center center;
 }
 
-// .page_thanks {
-//   
-//   color: #fff!important;
-//   text-align: center;
-// }
 
 .thanks_words {
   color: #000;
@@ -4128,10 +4117,6 @@ border-radius: 20px;
 	text-align: justify;
 }
 
-// .sliced_pic {
-// 	border-radius: 20px;
-// 	border: 4px solid #fff;
-// }
 
 .fa-phone {
 	display: inline-block;
@@ -4145,6 +4130,6 @@ border-radius: 20px;
 	font-size: 1.2rem;
 }
 
-// .main_adv {
-// 	text-align: justify;
-// }
+.main_adv {
+	text-align: justify;
+}
