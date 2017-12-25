@@ -308,7 +308,7 @@ body{-webkit-text-size-adjust:none;}
 .\-2u\28small\29{margin-left:16.66667%;}
 .\-1u\28small\29{margin-left:8.33333%;}
 }
-@media screen and (max-width:480px){.row > *{padding:0 0 0 1.5em;}
+@media screen and (max-width:480px){.adv_title{width:80%;}.row > *{padding:0 0 0 1.5em;}
 .row{margin:0 0 -1px -1.5em;}
 .row.uniform > *{padding:1.5em 0 0 1.5em;}
 .row.uniform{margin:-1.5em 0 -1px -1.5em;}
