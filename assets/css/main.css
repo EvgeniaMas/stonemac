@@ -2315,7 +2315,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #ef5e4a !important;
+				background-color: #b92814 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -3905,8 +3905,8 @@
     background: url('images/close.png') no-repeat 0px 0px;
     background-size: contain;
     cursor: pointer;
-    width: 25px;
-    height: 25px;
+    width: 19px;
+    height: 19px;
     position: absolute;
     right: 5px;
     top: 10px;
@@ -4060,11 +4060,14 @@ border-radius: 20px;
 		background-color: #fff1!important;
 	}
 
-	.markbook {
+	.macbook {
 		color: #000;
 		text-align: center;
 		margin: 0 0 10px 0;
 
+	}
+	.macbook_name {
+		margin-top: 20px;
 	}
 
 	.selection {
@@ -4129,3 +4132,19 @@ border-radius: 20px;
 // 	border-radius: 20px;
 // 	border: 4px solid #fff;
 // }
+
+.fa-phone {
+	display: inline-block;
+	color: #fff;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.phone {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.main_adv {
+	text-align: justify;
+}
