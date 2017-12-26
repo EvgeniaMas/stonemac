@@ -2101,6 +2101,7 @@ display: block;
 margin: 0 0 1em 0;
 width: 100%;
 min-width: 250px;
+max-width: 300px;
 margin: auto;
 }
 input[type="submit"].small,
@@ -2165,6 +2166,7 @@ button,
 height: 3.75em;
 line-height: 3.75em;
 }
+min-height: 500px;
 }
 .features {
 display: -moz-flex;
@@ -2223,10 +2225,25 @@ border-bottom-right-radius: 3px;
 .features li:nth-last-child(2) {
 border-bottom-left-radius: 3px;
 }
+ div#seven_advantages {
+background-color: rgba(255, 255, 255, 0.075);
+height: 710px;
+                }
 @media screen and (max-width:980px) {
 .features li {
 padding: 3em 2em 1em 2em;
 text-align: center;
+}
+
+
+div#seven_advantages {
+background-color: rgba(255, 255, 255, 0.075);
+height: 510px;
+                }
+.sliced_pic {
+	display: block;
+	
+	margin: auto;
 }
 .features li:before {
 left: 0;
@@ -3180,6 +3197,7 @@ right: 0;
             color: inherit;
         }
         @media screen and (max-width:1680px) {
+        	
             #main > header {
                 padding: 10em 0 8em 0;
             }
@@ -3466,9 +3484,7 @@ right: 0;
                 .advantage {
                     text-align: center;
                 }
-                div#seven_advantages {
-                    background-color: rgba(255, 255, 255, 0.075);
-                }
+               
                 .description {
                     line-height: 2.5rem;
                     text-align: justify;
@@ -3483,6 +3499,10 @@ right: 0;
                         max-width: 250px;
                         height: 180px;
                     }
+                    div#seven_advantages {
+                    background-color: rgba(255, 255, 255, 0.075);
+                    height: 420px;
+                }
                     .description {
                         font-size: 1.2rem;
                         line-height: 1.8rem;
@@ -3532,6 +3552,7 @@ right: 0;
                     font-size: 1.4rem;
                     margin-bottom: 30px!important;
                     width: 90%;
+                    text-align: justify;
                 }
                 .phone {
                     color: #fff;
